@@ -873,25 +873,25 @@
     transform: scale(1.1);
   }
   #es-nyx.es-nyx .es-ingr__item--1 {
-    width: 15%;
-    bottom: 36%;
-    left: 26%;
+    width: 25%;
+        bottom: 26%;
+        left: 20%;
   }
   #es-nyx.es-nyx .es-ingr__item--2 {
-    width: 28%;
-    bottom: -2%;
-    right: 10%;
+    width: 47%;
+    bottom: -22%;
+    right: 3%;
   }
   #es-nyx.es-nyx .es-ingr__ingr--1 {
-    left: -1%;
+    left: -15%;
     top: 76%;
   }
   #es-nyx.es-nyx .es-ingr__ingr--2 {
-    right: -8%;
+    right: -16%;
     top: 31%;
   }
   #es-nyx.es-nyx .es-ingr__ingr--3 {
-    right: -10%;
+    right: -22%;
     top: 53%;
   }
   #es-nyx.es-nyx .es-ingr__heartText {
@@ -941,39 +941,46 @@
     max-width: 33%;
   }
   #es-nyx.es-nyx .es-kv__paperWrapper {
-    width: 80%;
-    padding-left: 38%;
-    padding-top: 8%;
+    width: 72%;
+    padding-left: 34%;
+    padding-top: 12%;
   }
   #es-nyx.es-nyx .es-kv__listWrapper {
-    padding-left: 20%;
+    padding-left: 10%;
   }
   #es-nyx.es-nyx .es-kv__list {
-    padding: 0 0 0 70px;
+    padding: 0 0 0 0;
   }
   #es-nyx.es-nyx .es-kv__packshotWrapper {
-    width: 25%;
+    width: 33%;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
     right: 0;
   }
   #es-nyx.es-nyx .es-kv__cruelty {
-    top: 62%;
-    left: 25%;
-    width: 23%;
+    top: 52%;
+        left: 10%;
+        width: 26%;
+  }
+  #es-nyx.es-nyx .es-ingr__container {
+    width: 80%;
   }
   #es-nyx.es-nyx .es-ingr__heartText {
     font-size: 20px;
   }
   #es-nyx.es-nyx .es-ingr__subtitle {
     font-size: 40px;
+    line-height: 1;
   }
   #es-nyx.es-nyx .es-ingr__text {
     font-size: 20px;
   }
   #es-nyx.es-nyx .es-htu {
     background-size: 88% 74%;
+  }
+  #es-nyx.es-nyx .es-htu__titleWrapper {
+    margin-top: 125px;
   }
   #es-nyx.es-nyx .es-slider__name--2 {
     font-size: 24px;
@@ -982,6 +989,10 @@
 @media (min-width: 1600px) {
   #es-nyx.es-nyx .es-ingr {
     min-height: 611px;
+  }
+  #es-nyx.es-nyx .es-cross__single {
+    width: 30%;
+    max-width: unset; 
   }
 }
 
